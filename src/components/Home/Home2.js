@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/myAvatar.jpg";
 import Tilt from "react-parallax-tilt";
 
 function Home2() {
@@ -13,38 +13,13 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              I’m a Senior Frontend Engineer with 8+ years of experience building and scaling high-performance, transactional web applications used across international markets. My core expertise lies in <b>React.js, Next.js, TypeScript, and modern JavaScript</b> , with a strong focus on secure checkout, payment, and e-commerce flows. 
               <br />
               <br />
-              I’m proficient in
-              <i>
-                <b className="purple">
-                  {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
-                </b>
-              </i>
-              — and I enjoy working across both backend and frontend stacks.
+              I enjoy working at the intersection of frontend architecture and backend systems, designing resilient solutions using <b>REST</b> and <b> GraphQL APIs</b>, <b>SSR</b>, and <b>BFF</b> patterns, while ensuring security and compliance aligned with <b>OWASP</b> standards. Beyond implementation, I’m passionate about defining <b>frontend technical strategy</b>, improving <b>performance and conversion</b>, and <b>mentoring engineers</b> to deliver maintainable, production-ready systems.
               <br />
               <br />
-              My key areas of interest include developing
-              <i>
-                <b className="purple">
-                  {" "}
-                  Web Applications, Blockchain Solutions,{" "}
-                </b>
-              </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
-              <br />
-              <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
-              <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
-              </i>
+              Whenever possible, I leverage modern tooling and <b>AI-assisted development </b>to optimize workflows, reduce refactoring cycles, and ship faster — always with an emphasis on <b>clean code, performance, and user experience</b>.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

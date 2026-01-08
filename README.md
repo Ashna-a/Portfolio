@@ -4,9 +4,6 @@
 </h2>
 <br/>
 
-
----
-
 ## Overview
 
 This repository contains the source code for my **personal portfolio website**, built to showcase my **professional experience, technical skill set, and enterprise projects** as a **Senior Frontend Engineer**.

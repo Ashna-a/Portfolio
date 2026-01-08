@@ -8,37 +8,53 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi everyone! I’m <span className="purple">Soumyajit Behera</span>{" "}
-            from <span className="purple">Bhubaneswar, India</span>.
-            <br />
-            I’m currently working as a{" "}
-            <span className="purple">Software Developer</span> at{" "}
-            <span className="purple">Juspay</span>.
-            <br />I hold an Integrated M.Sc. (IMSc) in{" "}
-            <span className="purple">Mathematics and Computing</span> from{" "}
-            <span className="purple">BIT Mesra</span>.
+            Hi everyone! I’m <span className="purple">Ashna Ashref</span>, a{" "}
+            <span className="purple">Senior Frontend Engineer</span> based in{" "}
+            <span className="purple">Berlin, Germany</span>.
             <br />
             <br />
-            Outside of coding, I love engaging in activities that keep me
-            creative and inspired:
+            I bring <span className="purple">8+ years of experience</span>{" "}
+            building and scaling{" "}
+            <span className="purple">
+              high-performance, transactional web applications
+            </span>{" "}
+            for global markets using{" "}
+            <span className="purple">
+              React.js, Next.js, TypeScript, and modern JavaScript
+            </span>
+            .
+            <br />
+            <br />
+            My expertise lies in architecting{" "}
+            <span className="purple">
+              secure checkout, payment, and e-commerce flows
+            </span>{" "}
+            using REST and GraphQL APIs, while ensuring performance,
+            accessibility, and OWASP-aligned security standards.
+            <br />
+            <br />
+            Beyond coding, I enjoy mentoring engineers, shaping frontend
+            architecture, and leveraging AI-assisted tools to ship
+            scalable, maintainable products.
           </p>
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games 🎮
+              <ImPointRight /> Designing scalable frontend architectures
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs ✍️
+              <ImPointRight /> Optimizing performance & conversion flows
             </li>
             <li className="about-activity">
-              <ImPointRight /> Traveling and Exploring New Places 🌍
+              <ImPointRight /> Mentoring teams & reviewing architecture
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Build software that scales — technically, securely, and
+            meaningfully."
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Ashna</footer>
         </blockquote>
       </Card.Body>
     </Card>

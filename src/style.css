@@ -160,8 +160,8 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  height: 70px;
+  width: 160px;
 }
 
 .navbar-nav .nav-link {
@@ -270,7 +270,7 @@ button:focus {
 }
 
 .home-content {
-  padding: 9rem 0 2rem !important;
+  padding: 9rem 0 0 !important;
   color: whitesmoke;
   text-align: left;
 }
@@ -325,7 +325,6 @@ button:focus {
 .home-about-section {
   position: relative;
   padding-bottom: 70px !important;
-  padding-top: 70px !important;
 }
 
 .home-about-description {

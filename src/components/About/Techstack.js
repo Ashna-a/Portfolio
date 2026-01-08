@@ -1,142 +1,133 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { SiNextdotjs, SiSolidity } from "react-icons/si";
-import { FaRust } from "react-icons/fa";
-import Go from "../../Assets/TechIcons/go.svg";
-import C from "../../Assets/TechIcons/C++.svg";
-import Javascript from "../../Assets/TechIcons/Javascript.svg";
-import Node from "../../Assets/TechIcons/Node.svg";
+import { SiNextdotjs, SiGraphql, SiJest, SiCypress, SiTerraform } from "react-icons/si";
+import { TbApi, TbBrandOauth, TbTopologyStar, TbDatabase } from "react-icons/tb";
+import { FaAws } from "react-icons/fa";
+
 import ReactIcon from "../../Assets/TechIcons/React.svg";
-import HaskellIcon from "../../Assets/TechIcons/Haskell.svg";
-import Java from "../../Assets/TechIcons/Java.svg";
-import Python from "../../Assets/TechIcons/Python.svg";
+import Javascript from "../../Assets/TechIcons/Javascript.svg";
 import Typescript from "../../Assets/TechIcons/Typescript.svg";
-import Git from "../../Assets/TechIcons/Git.svg";
-import Firebase from "../../Assets/TechIcons/Firebase.svg";
-import Redis from "../../Assets/TechIcons/Redis.svg";
-import Docker from "../../Assets/TechIcons/Docker.svg";
-import Mongo from "../../Assets/TechIcons/Mongo.svg";
-import SQL from "../../Assets/TechIcons/SQL.svg";
-import Kubernates from "../../Assets/TechIcons/Kubernates.svg";
 import Redux from "../../Assets/TechIcons/Redux.svg";
+import Git from "../../Assets/TechIcons/Git.svg";
+import Docker from "../../Assets/TechIcons/Docker.svg";
 import Tailwind from "../../Assets/TechIcons/Tailwind.svg";
 import MUI from "../../Assets/TechIcons/MUI.svg";
 import Postman from "../../Assets/TechIcons/Postman.svg";
-import AWS from "../../Assets/TechIcons/AWS.svg";
-import Kafka from "../../Assets/TechIcons/Kafka.svg";
+import { MdSecurity } from "react-icons/md";
+
+
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+
+      {/* Core Frontend */}
       <Col xs={4} md={2} className="tech-icons">
-        <img src={C} alt="C++" />
-        <div className="tech-icons-text">C++</div>
+        <img src={ReactIcon} alt="React" />
+        <div className="tech-icons-text">React.js</div>
       </Col>
+
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Javascript} alt="javascript" />
-        <div className="tech-icons-text">Javascript</div>
+        <SiNextdotjs fontSize={"26px"} />
+        <div className="tech-icons-text">Next.js (SSR)</div>
       </Col>
+
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Typescript} alt="typescript" />
-        <div className="tech-icons-text">Javascript</div>
+        <img src={Typescript} alt="TypeScript" />
+        <div className="tech-icons-text">TypeScript</div>
       </Col>
+
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Go} alt="go" />
-        <div className="tech-icons-text">Go</div>
+        <img src={Javascript} alt="JavaScript" />
+        <div className="tech-icons-text">JavaScript (ES6+)</div>
       </Col>
+
+      {/* State Management */}
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Node} alt="node" />
-        <div className="tech-icons-text">Node.Js</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={ReactIcon} alt="react" />
-        <div className="tech-icons-text">React.Js</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity fontSize={"24px"} />
-        <div className="tech-icons-text">Solidity</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Mongo} alt="mongoDb" />
-        <div className="tech-icons-text">Mongo DB</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Redux} alt="redux" />
+        <img src={Redux} alt="Redux" />
         <div className="tech-icons-text">Redux</div>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs fontSize={"24px"} />
-        <div className="tech-icons-text">Next.js</div>
+        <TbDatabase fontSize={"26px"} />
+        <div className="tech-icons-text">Zustand</div>
       </Col>
+
+      {/* APIs & Architecture */}
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Git} alt="git" />
-        <div className="tech-icons-text">Git</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Firebase} alt="firebase" />
-        <div className="tech-icons-text">Firebase</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Redis} alt="redis" />
-        <div className="tech-icons-text">Redis</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Docker} alt="docker" />
-        <div className="tech-icons-text">Docker</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Kubernates} alt="kubernetes" />
-        <div className="tech-icons-text">Kubernetes</div>
+        <SiGraphql fontSize={"26px"} />
+        <div className="tech-icons-text">GraphQL</div>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <img src={SQL} alt="SQL" />
-        <div className="tech-icons-text">Postgresql</div>
+        <TbApi fontSize={"26px"} />
+        <div className="tech-icons-text">REST APIs</div>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Python} alt="Python" />
-        <div className="tech-icons-text">Python</div>
+        <TbTopologyStar fontSize={"26px"} />
+        <div className="tech-icons-text">WebSockets</div>
       </Col>
+
+      {/* Testing */}
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Java} alt="haskell" />
-        <div className="tech-icons-text">Java</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={HaskellIcon} alt="haskell" />
-        <div className="tech-icons-text">Haskell</div>
+        <SiJest fontSize={"26px"} />
+        <div className="tech-icons-text">Jest</div>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Tailwind} alt="tailwind" />
+        <SiCypress fontSize={"26px"} />
+        <div className="tech-icons-text">Cypress</div>
+      </Col>
+
+      {/* Styling */}
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={Tailwind} alt="Tailwind" />
         <div className="tech-icons-text">Tailwind CSS</div>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <img src={MUI} alt="mui" />
+        <img src={MUI} alt="MUI" />
         <div className="tech-icons-text">Material UI</div>
       </Col>
 
+      {/* DevOps & Cloud */}
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={Docker} alt="Docker" />
+        <div className="tech-icons-text">Docker</div>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTerraform fontSize={"26px"} />
+        <div className="tech-icons-text">Terraform</div>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <FaAws size={30} />
+        <div className="tech-icons-text">AWS</div>
+      </Col>
+
+      {/* Tools & Security */}
       <Col xs={4} md={2} className="tech-icons">
         <img src={Postman} alt="Postman" />
         <div className="tech-icons-text">Postman</div>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <FaRust fontSize={"24px"} />
-        <div className="tech-icons-text">Rust</div>
+        <TbBrandOauth fontSize={"26px"} />
+        <div className="tech-icons-text">OAuth2 / JWT</div>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <img src={AWS} alt="Postman" className="tech-icon-images" />
-        <div className="tech-icons-text">AWS</div>
+        <MdSecurity size={18} />
+        <div className="tech-icons-text">OWASP</div>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Kafka} alt="Kafka" className="tech-icon-images" />
-        <div className="tech-icons-text">Kafka</div>
+        <img src={Git} alt="Git" />
+        <div className="tech-icons-text">Git</div>
       </Col>
+
     </Row>
   );
 }
