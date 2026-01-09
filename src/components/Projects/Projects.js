@@ -22,7 +22,7 @@ function Projects() {
             <ProjectCard
               title="Neiman Marcus Group (Bergdorf Goodman)"
               description="Collaborated on building a high-performance React frontend for Bergdorf Goodman, delivering a responsive luxury e-commerce experience aligned with brand standards."
-              tech="React.js, Redux, TypeScript, REST APIs, Performance Optimization"
+              tech="React.js, Redux (Toolkit), Next.js, TypeScript, REST APIs, Performance Optimization"
             />
           </Col>
 
@@ -38,7 +38,7 @@ function Projects() {
             <ProjectCard
               title="Shake Shack – Offers Integration"
               description="Integrated third-party offer functionality into Shake Shack’s website, enabling users to access promotions seamlessly and improving overall engagement."
-              tech="React.js, Redux, REST APIs, SASS"
+              tech="React.js, Redux (Toolkit), Next.js, REST APIs, SASS"
             />
           </Col>
 
