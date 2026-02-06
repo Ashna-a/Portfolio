@@ -20,6 +20,11 @@ function ResumeNew() {
       <Container fluid className="resume-section">
         <Particle />
         <Row style={{ justifyContent: "center", position: "relative" }}>
+          <p>
+            Senior Frontend Engineer based in Berlin — Full work rights (Chancenkarte)
+            <br />
+            Open to Senior Frontend and Frontend Platform roles
+          </p>
           <Button
             variant="primary"
             href={pdf}
@@ -42,11 +47,16 @@ function ResumeNew() {
             variant="primary"
             href={pdf}
             target="_blank"
-            style={{ maxWidth: "250px" }}
+            style={{ maxWidth: "250px", marginBottom: "15px" }}
           >
             <AiOutlineDownload />
             &nbsp;Download CV
           </Button>
+          <p>
+            Senior Frontend Engineer based in Berlin — Full work rights (Chancenkarte)
+            <br />
+            Open to Senior Frontend and Frontend Platform roles
+          </p>
         </Row>
       </Container>
     </div>

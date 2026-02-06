@@ -285,6 +285,10 @@ button:focus {
   padding-left: 45px !important;
 }
 
+.heading-hero-text {
+  font-size: 1rem !important;
+}
+
 .main-name {
   color: #cd5ff8;
 }

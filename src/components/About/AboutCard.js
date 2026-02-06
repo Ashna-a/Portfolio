@@ -8,47 +8,48 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi everyone! I’m <span className="purple">Ashna Ashref</span>, a{" "}
-            <span className="purple">Senior Frontend Engineer</span> based in{" "}
-            <span className="purple">Berlin, Germany</span>.
+            Hi, I’m <span className="purple">Ashna Ashref</span>, a
+            <span className="purple"> Senior Frontend Engineer</span> based in
+            <span className="purple"> Berlin, Germany</span>.
             <br />
             <br />
-            I bring <span className="purple">8+ years of experience</span>{" "}
-            building and scaling{" "}
-            <span className="purple">
-              high-performance, transactional web applications
-            </span>{" "}
-            for global markets using{" "}
-            <span className="purple">
-              React.js, Next.js, TypeScript, and modern JavaScript
-            </span>
-            .
+            I bring over 
+            <span className="purple"> 8+ years of experience </span>
+            building and maintaining large-sacle 
+            <span className="purple"> React.js, Next.js, TypeScript, and modern JavaScript </span>
+            applications across e-commerce, healthcare, and enterprise platforms.
             <br />
             <br />
-            My expertise lies in architecting{" "}
-            <span className="purple">
-              secure checkout, payment, and e-commerce flows
-            </span>{" "}
-            using REST and GraphQL APIs, while ensuring performance,
-            accessibility, and OWASP-aligned security standards.
-            <br />
-            <br />
-            Beyond coding, I enjoy mentoring engineers, shaping frontend
-            architecture, and leveraging AI-assisted tools to ship
-            scalable, maintainable products.
+            What I do best:
           </p>
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Designing scalable frontend architectures
+              <ImPointRight /> Lead frontend architecture decisions for scalable and maintainable systems
             </li>
             <li className="about-activity">
-              <ImPointRight /> Optimizing performance & conversion flows
+              <ImPointRight /> Optimize performance and Core Web Vitals for real-world production traffic
             </li>
             <li className="about-activity">
-              <ImPointRight /> Mentoring teams & reviewing architecture
+              <ImPointRight /> Build and evolve design systems used across multiple teams
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Own features end-to-end, from technical design to production rollout
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Mentor engineers through code reviews and architectural guidance
             </li>
           </ul>
+
+          <br />
+          <br />
+
+          <p style={{ textAlign: "justify" }}>
+            Beyond coding, I care deeply about clean code, long-term maintainability, and building products that balance business goals with excellent user experience.  
+          </p>
+
+          <br />
+          <br />
 
           <p style={{ color: "rgb(155 126 172)" }}>
             "Build software that scales — technically, securely, and

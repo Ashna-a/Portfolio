@@ -13,14 +13,14 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I’m a Senior Frontend Engineer with 8+ years of experience building and scaling high-performance, transactional web applications used across international markets. My core expertise lies in <b>React.js, Next.js, TypeScript, and modern JavaScript</b> , with a strong focus on secure checkout, payment, and e-commerce flows. 
+              I’m a Senior Frontend Engineer with 8+ years of experience building and scaling high-traffic, customer-facing web applications used by millions of users globally.
               <br />
               <br />
-              I enjoy working at the intersection of frontend architecture and backend systems, designing resilient solutions using <b>REST</b> and <b> GraphQL APIs</b>, <b>SSR</b>, and <b>BFF</b> patterns, while ensuring security and compliance aligned with <b>OWASP</b> standards. Beyond implementation, I’m passionate about defining <b>frontend technical strategy</b>, improving <b>performance and conversion</b>, and <b>mentoring engineers</b> to deliver maintainable, production-ready systems.
+              My expertise lies in React, Next.js, and TypeScript, with a strong focus on frontend architecture, performance optimization, and design systems that scale across teams.
               <br />
               <br />
-              Whenever possible, I leverage modern tooling and <b>AI-assisted development </b>to optimize workflows, reduce refactoring cycles, and ship faster — always with an emphasis on <b>clean code, performance, and user experience</b>.
-            </p>
+              I’ve worked closely with product managers, designers, and backend engineers in distributed teams to deliver reliable, accessible, and high-quality user experiences.
+              </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>

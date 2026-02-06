@@ -25,6 +25,17 @@ function Home() {
               <h1 className="heading-name">
                 I'M
                 <strong className="main-name"> ASHNA ASHREF</strong>
+                <p className="heading-hero-text">
+                  Senior Frontend Engineer building scalable React & Next.js products
+                  <br />
+                  8+ years of experience delivering high-performance, production-ready web platforms for global B2C products. 
+                  <br />
+                  Based in Berlin · Full work rights (Chancenkarte).
+                  <br />
+                  React · Next.js (SSR/ISR) · TypeScript · Design Systems · Performance · Testing
+                  <br />
+                  Currently interviewing for Senior Frontend / Frontend Platform roles in Berlin
+                </p>
               </h1>
             </Col>
           </Row>

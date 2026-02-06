@@ -19,29 +19,31 @@ import { MdSecurity } from "react-icons/md";
 
 function Techstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+    <>
+      <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        {/* Core Frontend */}
+        <Col xs={4} md={2} className="tech-icons">
+          <img src={ReactIcon} alt="React" />
+          <div className="tech-icons-text">React.js</div>
+         </Col>
 
-      {/* Core Frontend */}
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={ReactIcon} alt="React" />
-        <div className="tech-icons-text">React.js</div>
-      </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiNextdotjs fontSize={"26px"} />
+          <div className="tech-icons-text">Next.js (SSR / ISR)</div>
+        </Col>
 
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs fontSize={"26px"} />
-        <div className="tech-icons-text">Next.js (SSR)</div>
-      </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <img src={Typescript} alt="TypeScript" />
+          <div className="tech-icons-text">TypeScript</div>
+        </Col>
 
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Typescript} alt="TypeScript" />
-        <div className="tech-icons-text">TypeScript</div>
-      </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <img src={Javascript} alt="JavaScript" />
+          <div className="tech-icons-text">JavaScript (ES6+)</div>
+        </Col>
+       </Row>
 
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Javascript} alt="JavaScript" />
-        <div className="tech-icons-text">JavaScript (ES6+)</div>
-      </Col>
-
+     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       {/* State Management */}
       <Col xs={4} md={2} className="tech-icons">
         <img src={Redux} alt="Redux" />
@@ -53,7 +55,17 @@ function Techstack() {
         <div className="tech-icons-text">Zustand</div>
       </Col>
 
+      <Col xs={4} md={2} className="tech-icons">
+          <img src={ReactIcon} alt="ReactQuery" />
+          <div className="tech-icons-text">React Query</div>
+      </Col>
+
       {/* APIs & Architecture */}
+      <Col xs={4} md={2} className="tech-icons">
+        <TbApi fontSize={"26px"} />
+        <div className="tech-icons-text">REST APIs</div>
+      </Col>
+     
       <Col xs={4} md={2} className="tech-icons">
         <SiGraphql fontSize={"26px"} />
         <div className="tech-icons-text">GraphQL</div>
@@ -61,26 +73,10 @@ function Techstack() {
 
       <Col xs={4} md={2} className="tech-icons">
         <TbApi fontSize={"26px"} />
-        <div className="tech-icons-text">REST APIs</div>
-      </Col>
+        <div className="tech-icons-text">OpenAPI</div>
+      </Col> 
 
-      <Col xs={4} md={2} className="tech-icons">
-        <TbTopologyStar fontSize={"26px"} />
-        <div className="tech-icons-text">WebSockets</div>
-      </Col>
-
-      {/* Testing */}
-      <Col xs={4} md={2} className="tech-icons">
-        <SiJest fontSize={"26px"} />
-        <div className="tech-icons-text">Jest</div>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <SiCypress fontSize={"26px"} />
-        <div className="tech-icons-text">Cypress</div>
-      </Col>
-
-      {/* Styling */}
+       {/* Styling */}
       <Col xs={4} md={2} className="tech-icons">
         <img src={Tailwind} alt="Tailwind" />
         <div className="tech-icons-text">Tailwind CSS</div>
@@ -90,7 +86,25 @@ function Techstack() {
         <img src={MUI} alt="MUI" />
         <div className="tech-icons-text">Material UI</div>
       </Col>
+    </Row>
 
+    <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+      {/* Testing */}
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJest fontSize={"26px"} />
+        <div className="tech-icons-text">Jest</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCypress fontSize={"26px"} />
+        <div className="tech-icons-text">Cypress</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+          <img src={ReactIcon} alt="RTL" />
+          <div className="tech-icons-text">React Testing Library</div>
+      </Col>
+    </Row >
+
+    <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       {/* DevOps & Cloud */}
       <Col xs={4} md={2} className="tech-icons">
         <img src={Docker} alt="Docker" />
@@ -117,6 +131,10 @@ function Techstack() {
         <TbBrandOauth fontSize={"26px"} />
         <div className="tech-icons-text">OAuth2 / JWT</div>
       </Col>
+          <Col xs={4} md={2} className="tech-icons">
+        <TbTopologyStar fontSize={"26px"} />
+        <div className="tech-icons-text">WebSockets</div>
+      </Col>
 
       <Col xs={4} md={2} className="tech-icons">
         <MdSecurity size={18} />
@@ -127,8 +145,8 @@ function Techstack() {
         <img src={Git} alt="Git" />
         <div className="tech-icons-text">Git</div>
       </Col>
-
     </Row>
+    </>
   );
 }
 
